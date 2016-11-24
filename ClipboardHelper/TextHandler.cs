@@ -28,7 +28,7 @@ namespace ClipboardHelper
             string path = Path.Combine(directory, filename);
             if (!File.Exists(path))
             {
-                File.Create(path);
+                File.Create(path).Close(); // need to remember to close
             }
         }
 
