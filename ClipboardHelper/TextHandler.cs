@@ -177,5 +177,14 @@ namespace ClipboardHelper
             list = JsonConvert.DeserializeObject<List<string>>(File.ReadAllText(path));
             return list;
         }
+
+        public void RemoveFileAndFolder()
+        {
+            System.IO.DirectoryInfo dir = new System.IO.DirectoryInfo(directory);
+            if (dir.Exists)
+                dir.Delete(true);
+
+        }
     }
+
 }

@@ -142,5 +142,11 @@ namespace ClipboardHelper.View
         {
             Application.Current.Shutdown();
         }
+
+        private void MenuClear_Click(object sender, RoutedEventArgs e)
+        {
+            handler.RemoveFileAndFolder();
+            Application.Current.Shutdown();
+        }
     }
 }

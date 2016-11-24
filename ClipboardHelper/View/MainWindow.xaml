@@ -13,22 +13,24 @@
         <Menu DockPanel.Dock="Top">
             <MenuItem Header="_File" Height="25">
                 <MenuItem Name="MenuItemWithRadioButtons" Header="Length" >
-                <MenuItem.Resources>
-                    <RadioButton x:Key="RadioButtonResource" x:Shared="false" HorizontalAlignment="Center" 
+                    <MenuItem.Resources>
+                        <RadioButton x:Key="RadioButtonResource" x:Shared="false" HorizontalAlignment="Center" 
                      GroupName="MenuItemRadio" IsHitTestVisible="False"/>
-                </MenuItem.Resources>
-                <MenuItem.ItemContainerStyle>
-                    <Style TargetType="MenuItem">
-                        <Setter Property="Icon" Value="{DynamicResource RadioButtonResource}"/>
-                        <EventSetter Event="Click" Handler="MenuItemWithRadioButtons_Click" />
-                    </Style>
-                </MenuItem.ItemContainerStyle>
-                <Sys:String>5</Sys:String>
-                <Sys:String>10</Sys:String>
-                <Sys:String>20</Sys:String>
-                <Sys:String>50</Sys:String>
-            </MenuItem>
+                    </MenuItem.Resources>
+                    <MenuItem.ItemContainerStyle>
+                        <Style TargetType="MenuItem">
+                            <Setter Property="Icon" Value="{DynamicResource RadioButtonResource}"/>
+                            <EventSetter Event="Click" Handler="MenuItemWithRadioButtons_Click" />
+                        </Style>
+                    </MenuItem.ItemContainerStyle>
+                    <Sys:String>5</Sys:String>
+                    <Sys:String>10</Sys:String>
+                    <Sys:String>20</Sys:String>
+                    <Sys:String>50</Sys:String>
+                </MenuItem>
+                <MenuItem Header="_Clear and Exit" Click="MenuClear_Click"/>
                 <MenuItem Header="_Exit" Click="MenuExit_Click"/>
+                
             </MenuItem>
         </Menu>
 
