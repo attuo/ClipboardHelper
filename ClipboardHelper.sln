@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atte.ClipboardHelper", "ClipboardHelper\Atte.ClipboardHelper.csproj", "{AABD4D56-92E3-4F7B-B6FA-5CD615E74256}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AABD4D56-92E3-4F7B-B6FA-5CD615E74256}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AABD4D56-92E3-4F7B-B6FA-5CD615E74256}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AABD4D56-92E3-4F7B-B6FA-5CD615E74256}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AABD4D56-92E3-4F7B-B6FA-5CD615E74256}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
