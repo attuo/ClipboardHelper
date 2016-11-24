@@ -76,8 +76,9 @@ namespace ClipboardHelper
             {
                 JsonSerializer serializer = new JsonSerializer();
                 serializer.Serialize(file, list);
-                file.Close();
+
             }
+
         }
 
         /// <summary>
