@@ -4,11 +4,11 @@ Windows program to keep latest copied texts in list, so you can use them later. 
 
 ## Getting Started
 
-You need to download the exe and run it. So it only works on Windows.
+You need to download the exe and run it. Only works on Windows.
 
 ## Built With
 
-* [C#](https://msdn.microsoft.com/en-us/library/kx37x362.aspx) - Programmin language used C#
+* [C#](https://msdn.microsoft.com/en-us/library/kx37x362.aspx) - Programming language used C#
 * [WPF](https://msdn.microsoft.com/en-us/library/ms754130(v=vs.110).aspx) - User interface made with WPF
 * [WPF-NotifyIcon](http://www.hardcodet.net/wpf-notifyicon) - Used to make the system tray functionalities
 * [MVVM-Light](https://mvvmlight.codeplex.com/) - Will be used in the future
