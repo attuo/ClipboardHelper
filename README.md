@@ -1,7 +1,4 @@
 # ClipboardHelper
-Windows program to keep latest copied texts in list, so you can use them later
-
-# ClipboardHelper
 
 Windows program to keep latest copied texts in list, so you can use them later. This project is made as a hobby to solve the problem I personally face time to time and think that would be something that someone has also irritated.
 
