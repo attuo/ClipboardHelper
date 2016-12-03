@@ -6,6 +6,7 @@ using System.Windows.Input;
 using ClipboardHelper.ViewModel;
 using ClipboardHelper.ClipboardManagerMonitor;
 using System.ComponentModel;
+using MahApps.Metro.Controls;
 
 namespace ClipboardHelper.View
 {
@@ -13,7 +14,7 @@ namespace ClipboardHelper.View
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class MainWindow : MetroWindow
     {
 
         TextHandler handler = new TextHandler(); // This is where text storing happens and adding
