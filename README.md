@@ -2,6 +2,8 @@
 
 Windows program to keep latest copied texts in list, so you can use them later. This project is made as a hobby to solve the problem I personally face time to time and think that would be something that someone has also irritated.
 
+![alt tag](https://i.imgur.com/5UngsBw.gif)
+
 ## Getting Started
 
 You need to download the [Clipboard.exe](https://github.com/attuo/ClipboardHelper/releases/download/1.0/ClipboardHelper.exe) and run it. Only works on Windows.
