@@ -12,6 +12,7 @@ You need to download the [Clipboard.exe](https://github.com/attuo/ClipboardHelpe
 
 * [C#](https://msdn.microsoft.com/en-us/library/kx37x362.aspx) - Programming language used C#
 * [WPF](https://msdn.microsoft.com/en-us/library/ms754130(v=vs.110).aspx) - User interface made with WPF
+* [MahApps](http://mahapps.com/) - Metro style for interface
 * [WPF-NotifyIcon](http://www.hardcodet.net/wpf-notifyicon) - Used to make the system tray functionalities
 * [MVVM-Light](https://mvvmlight.codeplex.com/) - Will be used in the future
 
