@@ -16,11 +16,12 @@ namespace ClipboardHelper.ViewModel
                 {
                     return new DelegateCommand
                     {
-                        CanExecuteFunc = () => Application.Current.MainWindow.IsVisible == false,
+                        CanExecuteFunc = () => Application.Current.MainWindow.IsVisible == false || Application.Current.MainWindow.WindowState == WindowState.Minimized,
                         CommandAction = () =>
                         {
                             //Application.Current.MainWindow = new MainWindow();
                             Application.Current.MainWindow.Show();
+                            Application.Current.MainWindow.WindowState = WindowState.Normal;
                         }
                     };
                 }
