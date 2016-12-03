@@ -14,6 +14,7 @@ You need to download the [Clipboard.exe](https://github.com/attuo/ClipboardHelpe
 * [WPF](https://msdn.microsoft.com/en-us/library/ms754130(v=vs.110).aspx) - User interface made with WPF
 * [MahApps](http://mahapps.com/) - Metro style for interface
 * [WPF-NotifyIcon](http://www.hardcodet.net/wpf-notifyicon) - Used to make the system tray functionalities
+* [Json.NET](http://www.newtonsoft.com/json) - Json framework to serialize list objects
 * [MVVM-Light](https://mvvmlight.codeplex.com/) - Will be used in the future
 
 ## Contributing
