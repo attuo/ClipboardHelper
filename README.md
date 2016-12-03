@@ -6,7 +6,7 @@ Windows program to keep latest copied texts in list, so you can use them later. 
 
 ## Getting Started
 
-You need to download the [Clipboard.exe](https://github.com/attuo/ClipboardHelper/releases/download/1.0/ClipboardHelper.exe) and run it. Only works on Windows.
+You need to download the [Clipboard.exe](https://github.com/attuo/ClipboardHelper/releases/download/1.1/ClipboardHelper.exe) and run it. Only works on Windows.
 
 ## Built With
 
