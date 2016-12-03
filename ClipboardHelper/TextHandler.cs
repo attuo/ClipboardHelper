@@ -58,6 +58,7 @@ namespace ClipboardHelper
                 }
 
             }
+            else list.Add(text);
             WriteToJson(list); // Overwrites the current json with the new one.
             
         }
